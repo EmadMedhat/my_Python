@@ -1,5 +1,6 @@
+#Write a Python program to find all the unique words and count the frequency of occurrence from a given list of strings.
 mylist=['name1','name0','name2','name5','name5','name1','name2','name3','name4','name5']
-i=0 ;
+i=0 
 unique=mylist[:] #copy a list
 while i<=len(unique)-1:
     first=unique[i]
